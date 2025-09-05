@@ -1,0 +1,11 @@
+#tuple (berurut, tidak bisa diubah, boleh duplikat)
+print("------tuple---------")
+#penulisan nya menggunakan()
+tgl_lahir = ("bekasi", 11, "february", 2010)
+print("tanggal lahir gw",tgl_lahir)
+# [no_index] akses data tuple
+print("tempat:", tgl_lahir[0])
+print("tanggal:", tgl_lahir[1])
+print("bulan:", tgl_lahir[2])
+print("tahun:", tgl_lahir[3]) 
+print("bulan, tahun", tgl_lahir[2:4])
